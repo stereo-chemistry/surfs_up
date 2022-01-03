@@ -7,11 +7,20 @@ This project is an analysis of temperature data in Hawaii. The analysis utilizes
 The purpose of this file is to write queries to view all temperature data stored in the .sqlite by month. Because our temperature data spans multiple years, our query filter utilizes an extract function imported from sqlalchemy. For the first deliverable, a query written to the .sqlite is filtered with an extract function, returning Hawaii's temperature data spanning 2010 to 2017 for the month of June. Summary statistics are collected for this dataset. The steps are repeated for the month of December in the second deliverable; the temperature data for this dataset spans 2010 to 2016.
 ## Results
 ### Deliverable 1
-* Deliverable 1 extract query https://github.com/stereo-chemistry/surfs_up/blob/ef30fd87a85061a85e88dcee0c173a3562be6316/SurfsUp_Challenge.ipynb
-  * The query  yields Hawaii's temperature data for the month of **June**
-* Deliverable 1 summary statistics https://github.com/stereo-chemistry/surfs_up/blob/ef30fd87a85061a85e88dcee0c173a3562be6316/SurfsUp_Challenge.ipynb
-  * The query yields a dataset of 1700 points
-  * The dataset spans 3 years
+Extract query & summary statistics https://github.com/stereo-chemistry/surfs_up/blob/ef30fd87a85061a85e88dcee0c173a3562be6316/SurfsUp_Challenge.ipynb
+
+![](resources/June_Statistics.png)
+
+* The query  yields Hawaii's temperature data for the month of **June**
+* The query yields a dataset of 1700 points
+* The dataset spans 7 years 2010 to 2017
 ### Deliverable 2
-* The following link leads 
+Extract query & summary statistics https://github.com/stereo-chemistry/surfs_up/blob/b32783d19da49431674ef0dea1364f9bbc3bc9b3/SurfsUp_Challenge.ipynb
+
+![](resources/December_Statistics.png)
+
+* The query yields Hawaii's temperature data for the month of **December**
+* The query yields a dataset of 1517 points
+* The dataset spans 6 years 2010 to 2016
+  * .sqlite data begins 01/01/2010 and ends 08/23/2017 
 ## Summary
