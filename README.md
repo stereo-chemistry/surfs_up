@@ -24,3 +24,4 @@ Extract query & summary statistics https://github.com/stereo-chemistry/surfs_up/
 * The dataset spans 6 years 2010 to 2016
   * .sqlite data begins 01/01/2010 and ends 08/23/2017 
 ## Summary
+Comparing December to June, the mean, 25% quartile and 50% quartile are about 4 degrees F lower, the 75% quartile about about 3 degrees F lower, and the max about 2 degrees F lower. Comparing December to June, the most significant differences are the ~ 8 degree F lower minimum and slightly larger standard deviation, potentially suggesting less consistency in December's temperature. In order to gather more relevant weather data, an additional query can be performed to find precipitation for the months of June and December. Additionally, temperature and precipitation queries can be written to specify data from any particular weather recording station.
